@@ -13,7 +13,6 @@ A small summary:
 7. Generate the FSTAB file with genfstab -U /mnt >> /mnt/etc/FSTAB
 8. Chroot in with arch-chroot /mnt
 9. Download the git repository with git clone https://github.com/PSxUchiha/arch-basic-install
-
-cd arch-basic-install
-chmod +x arch-install-basic.sh
-run with ./arch-install-basic.sh
+10. cd arch-basic-install
+11. chmod +x arch-install-basic.sh
+12. run with ./arch-install-basic.sh

@@ -10,7 +10,7 @@ A small summary:
 4. Format the partitions using "mkfs" command
 5. Mount the partitions using "mount" command
 6. Install the base packages into /mnt (pacstrap /mnt base linux linux-firmware git vim nano intel-ucode (or amd-ucode))
-7. Generate the FSTAB file with genfstab -U /mnt >> /mnt/etc/FSTAB
+7. Generate the FSTAB file with genfstab -U /mnt >> /mnt/etc/fstab
 8. Chroot in with arch-chroot /mnt
 9. Download the git repository with git clone https://github.com/PSxUchiha/arch-basic-install
 10. cd arch-basic-install

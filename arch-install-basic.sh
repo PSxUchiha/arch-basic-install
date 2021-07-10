@@ -1,4 +1,3 @@
-arch-chroot /mnt
 printf "##\n## Arch Linux repository mirrorlist\n## Generated on 2021-07-09\n##\n\n## India\nServer = http://mirror.cse.iitk.ac.in/archlinux/$repo/os/$arch\nServer = http://mirrors.piconets.webwerks.in/archlinux-mirror/$repo/os/$arch\nServer = https://mirrors.piconets.webwerks.in/archlinux-mirror/$repo/os/$arch" >> /etc/pacman.d/mirrorlist
 ln -sf /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
 hwclock --systohc
